@@ -2,12 +2,11 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Search - Fran Globlek
-</title>
+  <title>Fran Globlek Search </title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" href="https://fgloblek.github.io/theme/css/main.css" type="text/css" />
-  <link href="https://fgloblek.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Fran Globlek - Flux ATOM" />
   <link rel="stylesheet" href="https://fgloblek.github.io/theme/tipuesearch/tipuesearch.css">
+  <link href="https://fgloblek.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Fran Globlek - Flux ATOM" />
 </head>
 <body>
 <div id="page">
@@ -43,26 +42,23 @@
 
 </nav> <!-- /#nav -->
   <section id="content">
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
-</script>
-<script type="text/javascript" src="https://fgloblek.github.io/tipuesearch_content.json"></script>
-<script type="text/javascript" src="https://fgloblek.github.io/theme/tipuesearch/tipuesearch_set.js"></script>
-<script type="text/javascript" src="https://fgloblek.github.io/theme/tipuesearch/tipuesearch.min.js"></script>
 
-<script>
-$(document).ready(function() {
-     $('#tipue_search_input').tipuesearch(
-          'mode': 'json',
-          'contentLocation': 'https://fgloblek.github.io/tipuesearch_content.json'
-         );
-});
-</script>
-
-<section id="content" class="body">
-
-<div id="tipue_search_content"></div>
-
-</section>
+<div class="entry-content">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="https://fgloblek.github.io/theme/tipuesearch/tipuesearch_set.js"></script>
+    <script type="text/javascript" src="https://fgloblek.github.io/theme/tipuesearch/tipuesearch.min.js"></script>
+        <script>
+            $(document).ready(function() {
+            $('#tipue_search_input').tipuesearch({
+                'show': 8,
+                'mode': 'json',
+                'contentLocation': 'https://fgloblek.github.io/tipuesearch_content.json'
+                });
+            });
+        </script>
+    <div id="tipue_search_content"></div>
+</div>
   </section> <!-- /#content -->
 
 <!-- <aside id="sidebar">
