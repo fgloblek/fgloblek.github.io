@@ -2,8 +2,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Search - Fran Globlek
-</title>
+  <title>About</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" href="https://fgloblek.github.io/theme/css/main.css" type="text/css" />
   <link href="https://fgloblek.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Fran Globlek - Flux ATOM" />
@@ -43,23 +42,13 @@
 
 </nav> <!-- /#nav -->
   <section id="content">
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
-</script>
-<script type="text/javascript" src="https://fgloblek.github.io/theme/tipuesearch/tipuesearch_content.js"></script>
-<script type="text/javascript" src="https://fgloblek.github.io/theme/tipuesearch/tipuesearch_set.js"></script>
-<script type="text/javascript" src="https://fgloblek.github.io/theme/tipuesearch/tipuesearch.min.js"></script>
+        
+    <h2 class="page_title"><a href="https://fgloblek.github.io/">About</a></h1>
+    <div style="clear: both;">&nbsp;</div>
+    <section class="page_content">
+    <p>I am currently a first year masters student at the Physics department of PMF in Zagreb, Croatia. This website is still in progress, and will feature my work, my bio, my interests, as well as musings on mostly science in the form of a blog. This is a static website made with Pelican, with a custom-made theme (well, mostly scrapped from other themes). </p>
+    </section>
 
-<script>
-$(document).ready(function() {
-     $('#tipue_search_input').tipuesearch();
-});
-</script>
-
-<section id="content" class="body">
-
-<div id="tipue_search_content"></div>
-
-</section>
   </section> <!-- /#content -->
 
 <!-- <aside id="sidebar">
