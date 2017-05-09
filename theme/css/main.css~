@@ -75,7 +75,7 @@ ul, ol {
  
 p { 
   margin: .75em; 
-  line-height: 120%;
+  line-height: 150%;
 } 
 
 pre, blockquote {
