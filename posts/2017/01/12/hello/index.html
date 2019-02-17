@@ -80,15 +80,13 @@
     }
 
     var mathjaxscript = document.createElement('script');
-    var location_protocol = (false) ? 'https' : document.location.protocol;
-    if (location_protocol !== 'http' && location_protocol !== 'https') location_protocol = 'https:';
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
     mathjaxscript[(window.opera ? "innerHTML" : "text")] =
         "MathJax.Hub.Config({" +
         "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' }, Macros: {} }," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
         "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
         "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
         "    displayAlign: '"+ align +"'," +
@@ -128,15 +126,10 @@
         </section>
 
         <details class="meta">
-          Published on <time datetime="2017-01-12T00:00:00+01:00" pubdate="pubdate">Thu 12 January 2017</time>
+          Published on <time datetime="2017-01-12T00:00:00+01:00" pubdate="pubdate">gio 12 gennaio 2017</time>
  by Fran Globlek in -<a href="https://globlek.science/category/posts.html">posts</a>-.  
         </details>   </article>
 
-    <section id="comments" class="body">
-    <h2>Comments</h2>
-    <p>Please email me your comments at fran.globlek AT gmail.com and I will post them here when I can. Sorry, I'm not a fan of Disqus, and since this is a static site this is the only other way to have comments!</p>
-    
-    </section>
 
 
   </section> <!-- /#content -->
